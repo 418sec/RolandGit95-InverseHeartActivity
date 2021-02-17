@@ -1,0 +1,11 @@
+backups/
+Formalitäten/
+old/
+paper/
+programs/
+
+iECG/data/
+Reconstructing3D/data/datasets/
+Reconstructing3D/data/
+Reconstructing3D/data/visualization/
+Reconstructing3D/models/weights/

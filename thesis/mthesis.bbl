@@ -1,0 +1,182 @@
+\begin{thebibliography}{10}
+
+\bibitem{liu_very_2020}
+Xiaodong Liu, Kevin Duh, Liyuan Liu, and Jianfeng Gao.
+\newblock Very {Deep} {Transformers} for {Neural} {Machine} {Translation}.
+\newblock {\em arXiv:2008.07772 [cs]}, October 2020.
+\newblock arXiv: 2008.07772.
+
+\bibitem{amodei_deep_2015}
+Deep {Speech} 2: {End}-to-{End} {Speech} {Recognition} in {English} and
+  {Mandarin}.
+\newblock December 2015.
+\newblock arXiv: 1512.02595.
+
+\bibitem{schrittwieser_mastering_2020}
+Julian Schrittwieser, Ioannis Antonoglou, Thomas Hubert, Karen Simonyan,
+  Laurent Sifre, Simon Schmitt, Arthur Guez, Edward Lockhart, Demis Hassabis,
+  Thore Graepel, Timothy Lillicrap, and David Silver.
+\newblock Mastering {Atari}, {Go}, chess and shogi by planning with a learned
+  model.
+\newblock {\em Nature}, 588(7839):604--609, December 2020.
+
+\bibitem{alphafold}
+The~AlphaFold team.
+\newblock Alphafold: a solution to a 50-year-old grand challenge in biology,
+  2020.
+
+\bibitem{mcculloch_logical_1943}
+Warren~S. McCulloch and Walter Pitts.
+\newblock A logical calculus of the ideas immanent in nervous activity.
+\newblock {\em The Bulletin of Mathematical Biophysics}, 5(4):115--133,
+  December 1943.
+
+\bibitem{Rumelhart1986}
+David~E. Rumelhart, Geoffrey~E. Hinton, and Ronald~J. Williams.
+\newblock Learning representations by back-propagating errors.
+\newblock {\em Nature}, 323(6088):533--536, October 1986.
+
+\bibitem{wu_demystifying_2019}
+Yanzhao Wu, Ling Liu, Juhyun Bae, Ka-Ho Chow, Arun Iyengar, Calton Pu, Wenqi
+  Wei, Lei Yu, and Qi~Zhang.
+\newblock Demystifying {Learning} {Rate} {Policies} for {High} {Accuracy}
+  {Training} of {Deep} {Neural} {Networks}.
+\newblock {\em arXiv:1908.06477 [cs, stat]}, October 2019.
+\newblock arXiv: 1908.06477.
+
+\bibitem{adam}
+Diederik~P. Kingma and Jimmy Ba.
+\newblock Adam: A method for stochastic optimization, 2014.
+
+\bibitem{srivastava_dropout_2014}
+Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan
+  Salakhutdinov.
+\newblock Dropout: {A} {Simple} {Way} to {Prevent} {Neural} {Networks} from
+  {Overfitting}.
+\newblock {\em Journal of Machine Learning Research}, 15(56):1929--1958, 2014.
+
+\bibitem{ioffe_batch_2015}
+Sergey Ioffe and Christian Szegedy.
+\newblock Batch {Normalization}: {Accelerating} {Deep} {Network} {Training} by
+  {Reducing} {Internal} {Covariate} {Shift}.
+\newblock {\em arXiv:1502.03167 [cs]}, March 2015.
+\newblock arXiv: 1502.03167.
+
+\bibitem{tan_efficientnet_2020}
+Mingxing Tan and Quoc~V. Le.
+\newblock {EfficientNet}: {Rethinking} {Model} {Scaling} for {Convolutional}
+  {Neural} {Networks}.
+\newblock {\em arXiv:1905.11946 [cs, stat]}, September 2020.
+\newblock arXiv: 1905.11946.
+
+\bibitem{mohan_efficientps_2020}
+Rohit Mohan and Abhinav Valada.
+\newblock {EfficientPS}: {Efficient} {Panoptic} {Segmentation}.
+\newblock {\em arXiv:2004.02307 [cs]}, May 2020.
+\newblock arXiv: 2004.02307.
+
+\bibitem{han_contextnet_2020}
+Wei Han, Zhengdong Zhang, Yu~Zhang, Jiahui Yu, Chung-Cheng Chiu, James Qin,
+  Anmol Gulati, Ruoming Pang, and Yonghui Wu.
+\newblock {ContextNet}: {Improving} {Convolutional} {Neural} {Networks} for
+  {Automatic} {Speech} {Recognition} with {Global} {Context}.
+\newblock {\em arXiv:2005.03191 [cs, eess]}, May 2020.
+\newblock arXiv: 2005.03191.
+
+\bibitem{edunov_classical_2018}
+Sergey Edunov, Myle Ott, Michael Auli, David Grangier, and Marc'Aurelio
+  Ranzato.
+\newblock Classical {Structured} {Prediction} {Losses} for {Sequence} to
+  {Sequence} {Learning}.
+\newblock {\em arXiv:1711.04956 [cs]}, October 2018.
+\newblock arXiv: 1711.04956.
+
+\bibitem{elman_finding_1990}
+Jeffrey~L. Elman.
+\newblock Finding {Structure} in {Time}.
+\newblock {\em Cognitive Science}, 14(2):179--211, March 1990.
+
+\bibitem{schuster_bidirectional_1997}
+M.~Schuster and K.K. Paliwal.
+\newblock Bidirectional recurrent neural networks.
+\newblock {\em IEEE Transactions on Signal Processing}, 45(11):2673--2681,
+  November 1997.
+
+\bibitem{goldberg_primer_2015}
+Yoav Goldberg.
+\newblock A {Primer} on {Neural} {Network} {Models} for {Natural} {Language}
+  {Processing}.
+\newblock {\em arXiv:1510.00726 [cs]}, October 2015.
+\newblock arXiv: 1510.00726.
+
+\bibitem{kolen_gradient_2009}
+Gradient {Flow} in {Recurrent} {Nets}: {The} {Difficulty} of {Learning}
+  {LongTerm} {Dependencies}.
+\newblock In {\em A {Field} {Guide} to {Dynamical} {Recurrent} {Networks}}.
+  IEEE, 2009.
+
+\bibitem{bengio_learning_1994}
+Y.~Bengio, P.~Simard, and P.~Frasconi.
+\newblock Learning long-term dependencies with gradient descent is difficult.
+\newblock {\em IEEE Transactions on Neural Networks}, 5(2):157--166, March
+  1994.
+
+\bibitem{wu_future_2020}
+Yue Wu, Rongrong Gao, Jaesik Park, and Qifeng Chen.
+\newblock Future {Video} {Synthesis} with {Object} {Motion} {Prediction}.
+\newblock {\em arXiv:2004.00542 [cs]}, April 2020.
+\newblock arXiv: 2004.00542.
+
+\bibitem{prednet}
+Yunbo Wang, Mingsheng Long, Jianmin Wang, Zhifeng Gao, and Philip~S Yu.
+\newblock {PredRNN}: {Recurrent} {Neural} {Networks} for {Predictive}
+  {Learning} using {Spatiotemporal} {LSTMs}.
+\newblock page~10.
+
+\bibitem{pytorch}
+Pytorch: An imperative style, high-performance deep learning library.
+\newblock In H.~Wallach, H.~Larochelle, A.~Beygelzimer, F.~d\textquotesingle
+  Alch\'{e}-Buc, E.~Fox, and R.~Garnett, editors, {\em Advances in Neural
+  Information Processing Systems 32}, pages 8024--8035. Curran Associates,
+  Inc., 2019.
+
+\bibitem{torch}
+R.~Collobert, K.~Kavukcuoglu, and C.~Farabet.
+\newblock Torch7: A matlab-like environment for machine learning.
+\newblock In {\em BigLearn, NIPS Workshop}, 2011.
+
+\bibitem{iECG}
+Peter W. et~al. Macfarlane.
+\newblock {\em Herz-{Kreislauf}: mit 25 {Tab}}.
+\newblock Springer, 2010.
+
+\bibitem{kreislauf}
+Jan Steffel, Thomas~F. Lüscher, and Corinna Brunckhorst.
+\newblock {\em Herz-{Kreislauf}: mit 25 {Tab}}.
+\newblock Springer-{Lehrbuch}. Springer Medizin, Heidelberg, 2011.
+\newblock OCLC: 694879718.
+
+\bibitem{Barkley_2008}
+D.~Barkley.
+\newblock {B}arkley model.
+\newblock {\em Scholarpedia}, 3(11):1877, 2008.
+\newblock revision \#91030.
+
+\bibitem{zimmermann}
+P.W.D. Charles.
+\newblock Project title.
+\newblock \url{https://github.com/charlespwd/project-title}, 2013.
+
+\bibitem{alonso_taming_2003}
+S.~Alonso.
+\newblock Taming {Winfree} {Turbulence} of {Scroll} {Waves} in {Excitable}
+  {Media}.
+\newblock {\em Science}, 299(5613):1722--1725, March 2003.
+
+\bibitem{Savitzky1964SmoothingAD}
+A.~Savitzky and M.~Golay.
+\newblock Smoothing and differentiation of data by simplified least squares
+  procedures.
+\newblock {\em Analytical Chemistry}, 36:1627--1639, 1964.
+
+\end{thebibliography}

@@ -1,0 +1,86 @@
+\NeedsTeXFormat{LaTeX2e}[2005/12/01]
+\documentclass[master, twoside, BCOR10mm, english,ngerman]{GAUBM}
+
+\usepackage{setspace} % Zur Setzung des Zeilenabstandes
+\usepackage[ngerman, english]{babel} % Sprachen
+\usepackage[T1]{fontenc} % Unterstutzung von Umlauten etc.
+\usepackage[utf8]{inputenc} 
+\usepackage{amsmath,amssymb} % zusaetzliche Mathe-Symbole
+\usepackage{lmodern} % bessere Schrift
+\usepackage{natbib}
+\usepackage{graphicx,wrapfig,lipsum}
+\usepackage{nomencl}
+\usepackage{setspace}
+\usepackage{etoolbox}
+\usepackage{subcaption}
+
+\usepackage[pdfstartview=FitH,      % Oeffnen mit fit width
+            breaklinks=true,        % Umbrueche in Links, nur bei pdflatex default
+            bookmarksopen=true,     % aufgeklappte Bookmarks
+            bookmarksnumbered=true  % Kapitelnummerierung in bookmarks
+            ]{hyperref}
+            
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+
+\newcommand{\tabheadfont}[1]{\textbf{#1}} %% Tabellenkopf in Fett
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{3}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{titlesec}
+
+\definecolor{gray75}{gray}{0.75}
+\definecolor{textblue}{RGB}{0,0,96}
+\newcommand{\hsp}{\hspace{20pt}}
+
+\titleformat{\chapter}[display]
+  {\bfseries\Large}
+  {\filright\MakeUppercase{Chapter} \Huge\thechapter}{1ex}
+  {\titlerule\vspace{1ex}\filleft}
+  [\vspace{1ex}\titlerule]
+  
+\titleformat{\section}
+{\normalfont\Large\bfseries}
+{\textcolor{textblue}\thesection}{1em}
+{\textcolor{textblue}}
+
+\titleformat{\subsection}
+{\normalfont\large\bfseries}
+{\textcolor{textblue}\thesubsection}{1em}
+{\textcolor{textblue}}
+
+\titleformat{\subsubsection}
+{\normalfont\normalsize\bfseries}
+{\textit{\textcolor{textblue}\thesubsubsection}}{1em}
+{\itshape\textcolor{textblue}}
+
+\begin{document}
+    \input{content/titlepage}
+    %\input{content/abstract}
+    
+    \onehalfspacing
+    \renewcommand\contentsname{Contents}
+    \renewcommand\nomname{Nomenclature}
+    
+    \tableofcontents
+    %\input{content/nomenclature}
+    \mainmatter   %% Anfang Hauptteil
+    
+    \input{content/introduction}
+    \input{content/ml}
+    \input{content/iecg}
+    %\input{content/iecg_old}
+    \input{content/diver}
+    \input{content/outlook}
+    \input{content/summary}
+    
+    %\input{content/outlook}
+    %\input{content/appendix}
+    
+    %\bibliographystyle{agsm}
+    \bibliographystyle{unsrt}
+    \begin{flushleft}
+        \bibliography{references}
+    \end{flushleft}
+    \Declaration
+\end{document}

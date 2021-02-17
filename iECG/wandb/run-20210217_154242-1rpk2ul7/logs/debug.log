@@ -1,0 +1,24 @@
+2021-02-17 15:42:42,076 INFO    MainThread:25004 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-17 15:42:42,076 INFO    MainThread:25004 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-17 15:42:42,076 INFO    MainThread:25004 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-17 15:42:42,076 INFO    MainThread:25004 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-17 15:42:42,076 INFO    MainThread:25004 [wandb_init.py:_log_setup():318] Logging user logs to /home/roland/Projekte/Masterthesis/iECG/wandb/run-20210217_154242-1rpk2ul7/logs/debug.log
+2021-02-17 15:42:42,076 INFO    MainThread:25004 [wandb_init.py:_log_setup():319] Logging internal logs to /home/roland/Projekte/Masterthesis/iECG/wandb/run-20210217_154242-1rpk2ul7/logs/debug-internal.log
+2021-02-17 15:42:42,695 WARNING MainThread:25004 [wandb_init.py:init():709] interrupted
+Traceback (most recent call last):
+  File "/home/roland/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 689, in init
+    run = wi.init()
+  File "/home/roland/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 440, in init
+    ret = backend.interface.communicate_check_version(
+  File "/home/roland/anaconda3/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 647, in communicate_check_version
+    result = self._communicate(rec)
+  File "/home/roland/anaconda3/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 467, in _communicate
+    f = future.get(timeout)
+  File "/home/roland/anaconda3/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 65, in get
+    is_set = self._object_ready.wait(timeout)
+  File "/home/roland/anaconda3/lib/python3.8/threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/roland/anaconda3/lib/python3.8/threading.py", line 306, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2021-02-17 15:42:42,709 INFO    MainThread:25004 [internal.py:handle_exit():156] Internal process exited

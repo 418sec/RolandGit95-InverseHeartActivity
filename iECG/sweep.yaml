@@ -1,0 +1,16 @@
+program: main.py
+method: bayes
+metric:
+  name: val_loss
+  goal: minimize
+parameters:
+  learning_rate:
+    min: 0.001
+    max: 0.1
+  sweep:
+    values: [1]
+  config:
+    values: [config/cnn_reg.yaml]
+    
+  
+ 

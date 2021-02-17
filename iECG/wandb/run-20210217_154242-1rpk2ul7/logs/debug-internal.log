@@ -1,0 +1,15 @@
+2021-02-17 15:42:42,501 INFO    MainThread:25042 [internal.py:wandb_internal():81] W&B internal server running at pid: 25042
+2021-02-17 15:42:42,503 DEBUG   HandlerThread:25042 [handler.py:handle_request():93] handle_request: check_version
+2021-02-17 15:42:42,503 DEBUG   SenderThread:25042 [sender.py:send():117] send: header
+2021-02-17 15:42:42,503 DEBUG   SenderThread:25042 [sender.py:send():117] send: request
+2021-02-17 15:42:42,503 DEBUG   SenderThread:25042 [sender.py:send_request():126] send_request: check_version
+2021-02-17 15:42:42,504 INFO    WriterThread:25042 [datastore.py:open_for_write():77] open: /home/roland/Projekte/Masterthesis/iECG/wandb/run-20210217_154242-1rpk2ul7/run-1rpk2ul7.wandb
+2021-02-17 15:42:42,505 DEBUG   Thread-4  :25042 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): pypi.org:443
+2021-02-17 15:42:42,695 WARNING MainThread:25042 [internal.py:wandb_internal():135] Internal process interrupt: 1
+2021-02-17 15:42:42,760 DEBUG   Thread-4  :25042 [connectionpool.py:_make_request():433] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 54248
+2021-02-17 15:42:55,346 WARNING MainThread:25042 [internal.py:wandb_internal():135] Internal process interrupt: 2
+2021-02-17 15:42:55,346 ERROR   MainThread:25042 [internal.py:wandb_internal():138] Internal process interrupted.
+2021-02-17 15:42:55,507 INFO    WriterThread:25042 [datastore.py:close():258] close: /home/roland/Projekte/Masterthesis/iECG/wandb/run-20210217_154242-1rpk2ul7/run-1rpk2ul7.wandb
+2021-02-17 15:42:55,520 INFO    HandlerThread:25042 [handler.py:finish():312] shutting down handler
+2021-02-17 15:42:55,796 INFO    SenderThread:25042 [sender.py:finish():766] shutting down sender
+2021-02-17 15:42:55,797 INFO    MainThread:25042 [internal.py:handle_exit():156] Internal process exited

@@ -1,0 +1,33 @@
+2021-02-17 15:43:11,353 INFO    MainThread:25103 [internal.py:wandb_internal():81] W&B internal server running at pid: 25103
+2021-02-17 15:43:11,354 DEBUG   HandlerThread:25103 [handler.py:handle_request():93] handle_request: check_version
+2021-02-17 15:43:11,355 INFO    WriterThread:25103 [datastore.py:open_for_write():77] open: /home/roland/Projekte/Masterthesis/iECG/wandb/run-20210217_154310-2l8cw3qx/run-2l8cw3qx.wandb
+2021-02-17 15:43:11,355 DEBUG   SenderThread:25103 [sender.py:send():117] send: header
+2021-02-17 15:43:11,355 DEBUG   SenderThread:25103 [sender.py:send():117] send: request
+2021-02-17 15:43:11,355 DEBUG   SenderThread:25103 [sender.py:send_request():126] send_request: check_version
+2021-02-17 15:43:11,357 DEBUG   Thread-4  :25103 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): pypi.org:443
+2021-02-17 15:43:11,421 DEBUG   Thread-4  :25103 [connectionpool.py:_make_request():433] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 54248
+2021-02-17 15:43:11,444 DEBUG   SenderThread:25103 [sender.py:send():117] send: run
+2021-02-17 15:43:11,446 DEBUG   SenderThread:25103 [cmd.py:execute():718] Popen(['git', 'cat-file', '--batch-check'], cwd=/home/roland/Projekte/Masterthesis, universal_newlines=False, shell=None, istream=<valid stream>)
+2021-02-17 15:43:11,453 DEBUG   SenderThread:25103 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-17 15:43:12,386 WARNING MainThread:25103 [internal.py:wandb_internal():135] Internal process interrupt: 1
+2021-02-17 15:43:12,557 DEBUG   SenderThread:25103 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-17 15:43:12,569 INFO    SenderThread:25103 [dir_watcher.py:__init__():165] watching files in: /home/roland/Projekte/Masterthesis/iECG/wandb/run-20210217_154310-2l8cw3qx/files
+2021-02-17 15:43:12,569 INFO    SenderThread:25103 [sender.py:_start_run_threads():593] run started: 2l8cw3qx with start time 1613572990
+2021-02-17 15:43:12,758 WARNING MainThread:25103 [internal.py:wandb_internal():135] Internal process interrupt: 2
+2021-02-17 15:43:12,759 ERROR   MainThread:25103 [internal.py:wandb_internal():138] Internal process interrupted.
+2021-02-17 15:43:13,446 INFO    WriterThread:25103 [datastore.py:close():258] close: /home/roland/Projekte/Masterthesis/iECG/wandb/run-20210217_154310-2l8cw3qx/run-2l8cw3qx.wandb
+2021-02-17 15:43:13,447 INFO    HandlerThread:25103 [handler.py:finish():312] shutting down handler
+2021-02-17 15:43:13,570 INFO    SenderThread:25103 [sender.py:finish():766] shutting down sender
+2021-02-17 15:43:13,570 INFO    SenderThread:25103 [dir_watcher.py:finish():279] shutting down directory watcher
+2021-02-17 15:43:14,570 INFO    SenderThread:25103 [dir_watcher.py:finish():309] scan: /home/roland/Projekte/Masterthesis/iECG/wandb/run-20210217_154310-2l8cw3qx/files
+2021-02-17 15:43:14,571 INFO    SenderThread:25103 [dir_watcher.py:finish():315] scan save: /home/roland/Projekte/Masterthesis/iECG/wandb/run-20210217_154310-2l8cw3qx/files/config.yaml config.yaml
+2021-02-17 15:43:14,571 INFO    SenderThread:25103 [file_pusher.py:finish():176] shutting down file pusher
+2021-02-17 15:43:14,571 INFO    SenderThread:25103 [file_pusher.py:join():181] waiting for file pusher
+2021-02-17 15:43:14,580 DEBUG   Thread-10 :25103 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-17 15:43:15,748 DEBUG   Thread-10 :25103 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-17 15:43:15,754 DEBUG   Thread-10 :25103 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-02-17 15:43:16,396 DEBUG   Thread-10 :25103 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/rolst/CNNREG/2l8cw3qx/config.yaml?Expires=1613659395&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=X6Xr999oA94BMq3c%2Bv4rZYaJz6sRYWTYu42rYg%2F4joP1rrkTp8bgxwBADHGJbc0b6wb45dS4vrDoeTGxIEOLw8T9J20ZbgpVxCiygasOuNuMQ7Sse2g4HbypH5xGm6ihIayq55Yr5DQtf9PVWaaW%2BpAI%2Fza6kP4mF58%2B7pGxweBkRr%2FTgbMDPIpHgBYnCBR8lKYa%2B4NL5Zk7MIOVj3ziqvswvheDa7cQl03DqzR48lpULQHKZW2A03XUmYXRNnVRW8P5gHyrcbV6hE1EI1Uq8wR27EFO%2FwegBdAI8tePVVv6KWS5dhXMnjyd087dgP9x6LxKgT0RTXT3LU77fTTmpw%3D%3D HTTP/1.1" 200 0
+2021-02-17 15:43:16,399 INFO    Thread-10 :25103 [upload_job.py:push():133] Uploaded file /home/roland/Projekte/Masterthesis/iECG/wandb/run-20210217_154310-2l8cw3qx/files/config.yaml
+2021-02-17 15:43:17,079 DEBUG   Thread-5  :25103 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-17 15:43:18,172 DEBUG   Thread-5  :25103 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/rolst/CNNREG/2l8cw3qx/file_stream HTTP/1.1" 200 None
+2021-02-17 15:43:18,176 INFO    MainThread:25103 [internal.py:handle_exit():156] Internal process exited

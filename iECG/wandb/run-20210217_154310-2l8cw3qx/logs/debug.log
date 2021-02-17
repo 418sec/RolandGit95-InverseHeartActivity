@@ -1,0 +1,26 @@
+2021-02-17 15:43:10,934 INFO    MainThread:25065 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-17 15:43:10,934 INFO    MainThread:25065 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-17 15:43:10,934 INFO    MainThread:25065 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-17 15:43:10,934 INFO    MainThread:25065 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-17 15:43:10,934 INFO    MainThread:25065 [wandb_init.py:_log_setup():318] Logging user logs to /home/roland/Projekte/Masterthesis/iECG/wandb/run-20210217_154310-2l8cw3qx/logs/debug.log
+2021-02-17 15:43:10,934 INFO    MainThread:25065 [wandb_init.py:_log_setup():319] Logging internal logs to /home/roland/Projekte/Masterthesis/iECG/wandb/run-20210217_154310-2l8cw3qx/logs/debug-internal.log
+2021-02-17 15:43:12,386 WARNING MainThread:25065 [wandb_init.py:init():709] interrupted
+Traceback (most recent call last):
+  File "/home/roland/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 689, in init
+    run = wi.init()
+  File "/home/roland/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 451, in init
+    ret = backend.interface.communicate_run(run, timeout=30)
+  File "/home/roland/anaconda3/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 563, in communicate_run
+    return self._communicate_run(run, timeout=timeout)
+  File "/home/roland/anaconda3/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 554, in _communicate_run
+    resp = self._communicate(req, timeout=timeout)
+  File "/home/roland/anaconda3/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 467, in _communicate
+    f = future.get(timeout)
+  File "/home/roland/anaconda3/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 65, in get
+    is_set = self._object_ready.wait(timeout)
+  File "/home/roland/anaconda3/lib/python3.8/threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/roland/anaconda3/lib/python3.8/threading.py", line 306, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2021-02-17 15:43:12,393 INFO    MainThread:25065 [internal.py:handle_exit():156] Internal process exited

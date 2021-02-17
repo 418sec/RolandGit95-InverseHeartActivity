@@ -1,0 +1,40 @@
+# metadata for training on concentric dataset
+
+### Names ###
+project_name: Concentric
+name: STLSTM
+
+### Save and load dataset/weights etc. ###
+dataset: concentric
+dataset_dir: data/datasets/concentric/processed/
+save_dir: models/weights/concentric/
+save_name: STLSTM
+load_weights: false
+weights_file: ./model
+
+# Use WandB API
+wandb: true
+wandb_dir: data/evaluation/wandb/concentric/STLSTM
+
+### Model ###
+architecture: STLSTM
+num_features: 64
+
+### Training process ###
+lr: 0.0001
+optimizer: Adam
+loss_fn: MSE
+batch_size: 4
+
+### Experiment-specific quantities ###
+epochs: 16
+depth: 1
+depths: null
+
+time_step: 32
+time_steps: null
+
+### Internet conncetion? Use live-logger via WandB ### 
+online: 0
+
+

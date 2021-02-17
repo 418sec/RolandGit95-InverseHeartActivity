@@ -1,0 +1,30 @@
+# metadata for training on concentric dataset
+
+### Names ###
+project_name: iECG
+name: CNN
+
+### Save and load dataset/weights etc. ###
+dataset_dir: data/processed/
+save_dir: models/weights/
+save_name: CNN
+weights_file: cnn
+
+# Use WandB API
+wandb: true
+wandb_dir: data/evaluation/
+
+### Training process ###
+lr: 0.01
+optimizer: Adam
+loss_fn: MSE
+batch_size: 128
+
+### Experiment-specific quantities ###
+epochs: 1024
+
+### Internet connection? Use live-logger via WandB ### 
+online: 0
+
+
+
