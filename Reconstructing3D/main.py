@@ -232,7 +232,7 @@ if __name__=='__main__':
     if not isinstance(args.config, type(None)):
         try:
             with open(args.config) as config_file:
-                config = yaml.load(config_file, Loader=yaml.FullLoader)
+                config = yaml.load(config_file, Loader=yaml.SafeLoader)
                 args_config.update(config)
         except FileNotFoundError:
             print('Config-file not found, use default values')
